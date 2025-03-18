@@ -46,9 +46,7 @@
                 {
                     "foreground": "#4dafff",
                     "properties": {
-                        "fetch_version": true,
-                        "fetch_virtual_env": true,
-                        "display_default": true
+                        "display_default": false
                     },
                     "style": "plain",
                     "template": "<#ffffff>via</>  {{ .Full }} {{ if .Venv }}({{ .Venv }}){{ end }} ",
